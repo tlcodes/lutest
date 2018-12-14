@@ -13,8 +13,6 @@ function ratsSourds(ratStr) {
       }).length; // le nombre de rats sourds
 }
 
-ratsSourds(ratsEtFlutiste);
-
 console.log(ratsSourds("~0 ~0~0 P")); // 0
 console.log(ratsSourds("~0 0~~0 P ~0")); // 2
 console.log(ratsSourds("P ~0 0~0~ 0~")); // 1
